@@ -1,5 +1,7 @@
 #pragma once
 
+#include "Globals.h"
+
 class Application;
 class PhysBody;
 
@@ -70,6 +72,5 @@ public:
 		return true; 
 	}
 
-	virtual void OnCollision(PhysBody* body1, PhysBody* body2)
-	{ }
+	// TODO 5: Create a OnCollision method that receives both PhysBodies
 };
